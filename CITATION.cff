@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+title: "When Does Risk-Managed Momentum Add Value? A Reproducible, Out-of-Sample, Regime-Conditional Study of a Volatility-Targeted Dual-Momentum Strategy"
+authors:
+  - family-names: "Goyal"
+    given-names: "Aariv"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- uncomment and fill in after creating your ORCID iD
+date-released: 2026-07-02
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/aarivgoyal/quant-momentum-risk-targeting"
+keywords:
+  - quantitative finance
+  - momentum
+  - volatility targeting
+  - backtesting
+  - portfolio management

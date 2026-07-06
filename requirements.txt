@@ -1,0 +1,16 @@
+# Dependencies for quant_momentum_ALL_IN_ONE.py
+# Tested with Python 3.10-3.12.
+
+# --- Core (required to run the analysis) ---
+numpy>=1.23
+pandas>=2.2          # the script uses the 'ME' month-end resample alias (pandas >= 2.2)
+matplotlib>=3.6
+
+# --- Optional: fresh data download on the FIRST run only ---
+# With prices_cache.csv and rf_cache.csv in the working directory, the script
+# reads the cache and runs fully offline, so yfinance is NOT needed.
+yfinance>=0.2.40
+
+# --- Optional: scipy is NOT required by the all-in-one script (which is fully
+#     self-contained). Listed only if you later add separate modules. ---
+scipy>=1.10
