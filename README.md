@@ -3,7 +3,7 @@
 *A reproducible, out-of-sample, regime-conditional study of a volatility-targeted dual-momentum strategy.*
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aarivgoyal/quant-momentum-risk-targeting/blob/main/colab_run.ipynb)
-<!-- After cutting the v1.0.0 release on Zenodo, paste the DOI badge Zenodo gives you here -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21444647.svg)](https://doi.org/10.5281/zenodo.21444647)
 <!-- After recording the walkthrough: **▶ [3-minute video walkthrough](YOUR_VIDEO_LINK)** -->
 
 An out-of-sample, walk-forward, bootstrap-tested study of when risk-managed momentum protects a portfolio. It cushions slow bear markets, and once an engineered fix is added it sharply reduces fast-crash losses — but it reveals a fundamental crash-protection-versus-whipsaw tradeoff. The contribution is methodological: a financial idea specified mathematically, implemented without common backtest errors, diagnosed where it fails, and reported honestly enough to show exactly where it works and where it does not.
