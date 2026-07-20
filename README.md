@@ -87,7 +87,7 @@ The complete write-up is in [`paper/Quant_Momentum_Strategy.pdf`](paper/Quant_Mo
 
 ## Citation
 
-If you reference this work, please cite it using the "Cite this repository" button above (generated from `CITATION.cff`), or the Zenodo DOI once the release is archived.
+If you reference this work, please cite it using the "Cite this repository" button above (generated from CITATION.cff), or the archived version on Zenodo: https://doi.org/10.5281/zenodo.21444647
 
 ## Author
 
