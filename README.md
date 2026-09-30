@@ -4,7 +4,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aarivgoyal/quant-momentum-risk-targeting/blob/main/colab_run.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21444647.svg)](https://doi.org/10.5281/zenodo.21444647)
-<!-- After recording the walkthrough: **▶ [3-minute video walkthrough](YOUR_VIDEO_LINK)** -->
+
 
 An out-of-sample, walk-forward, bootstrap-tested study of when risk-managed momentum protects a portfolio. It cushions slow bear markets, and once an engineered fix is added it sharply reduces fast-crash losses — but it reveals a fundamental crash-protection-versus-whipsaw tradeoff. The contribution is methodological: a financial idea specified mathematically, implemented without common backtest errors, diagnosed where it fails, and reported honestly enough to show exactly where it works and where it does not.
 
@@ -17,7 +17,7 @@ An out-of-sample, walk-forward, bootstrap-tested study of when risk-managed mome
 - **Honest benchmarking.** Over a 13-year bull market (Feb 2013 – Jun 2026) the strategy reduces volatility (12.4% vs 17.0%) and drawdown vs buy-and-hold, but does not beat a simple 60/40 on a risk-adjusted basis — and no setting in a 36-configuration grid does either. Reported as a structural result, not hidden.
 - **Regime-conditional value.** It outperformed both benchmarks in the slow 2022 bear (−14.2% vs −24.1% and −20.2%) but suffered its worst loss in the fast COVID crash, because the signal is monthly.
 - **An engineered fix.** A daily crash-guard overlay sharply reduced fast-crash losses: in the COVID crash it improved the crisis return from −28.5% to −1.9% while cutting max drawdown from −28.8% to −4.0% (the 2018 selloff improved similarly, from −13.3% to −1.6% return and −13.7% to −3.0% drawdown), with statistically significant downside protection vs both benchmarks in down markets.
-- **The overfitting trap, shown empirically.** Walk-forward re-optimization produced worse out-of-sample results than fixed parameters (Sharpe 0.33 vs 0.58) — a clean demonstration of why chasing the best in-sample fit backfires.
+- **The overfitting trap, shown empirically.** Walk-forward re-optimization produced worse out-of-sample results than fixed parameters (Sharpe 0.33 vs 0.58), a clean demonstration of why chasing the best in-sample fit backfires.
 - **The deeper result.** Crash protection and whipsaw are two ends of one speed dial; reacting faster to crashes is inseparable from whipsawing more in calm markets.
 
 ## Strategy and data
